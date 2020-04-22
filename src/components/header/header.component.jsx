@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux';
 import { ReactComponent as Logo } from '../../assets/cwn.svg';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component'
-import { auth } from '../../firebase/firebase.utils'
+
 import CartIcon from '../cart-icon/cart-icon.component'
 import {createStructuredSelector} from 'reselect';
 import {selectCartHidden} from '../../redux/cart/cart.selectors'
